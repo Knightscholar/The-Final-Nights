@@ -36196,6 +36196,16 @@
 	},
 /turf/open/floor/plating/vampdirt,
 /area/vtm)
+"jzc" = (
+/obj/machinery/light/prince{
+	pixel_y = 32;
+	light_power = 0.45;
+	name = "dim light fixture";
+	light_color = "#000080"
+	},
+/obj/structure/table/wood/fancy/red,
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "jzi" = (
 /obj/matrix{
 	alpha = 0
@@ -42837,7 +42847,6 @@
 	dir = 5;
 	pixel_y = 6
 	},
-/obj/structure/table/wood/fancy/red,
 /obj/item/lighter,
 /obj/item/storage/fancy/cigarettes/cigars/havana{
 	pixel_y = 5
@@ -42848,6 +42857,7 @@
 	pixel_x = -10
 	},
 /obj/item/candle/infinite,
+/obj/structure/table/wood/fancy/red,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/jazzclub)
 "lhH" = (
@@ -74254,6 +74264,16 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/nosferatu_office)
+"tgx" = (
+/obj/structure/table/wood/fancy/red,
+/obj/machinery/light/prince{
+	pixel_y = 32;
+	light_power = 0.45;
+	name = "dim light fixture";
+	light_color = "#000080"
+	},
+/turf/open/floor/plating/parquetry/rich,
+/area/vtm/jazzclub)
 "tgD" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -83944,18 +83964,18 @@
 	},
 /area/vtm/interior/endron_facility/plant)
 "vNw" = (
-/obj/structure/railing{
-	dir = 1;
-	plane = 4;
-	pixel_y = 10
-	},
-/obj/structure/table/wood/fancy/red,
 /obj/item/candle/infinite,
 /obj/item/candle/infinite{
 	anchored = 1;
 	pixel_y = 4;
 	pixel_x = 10
 	},
+/obj/structure/railing{
+	dir = 1;
+	plane = 4;
+	pixel_y = 10
+	},
+/obj/structure/table/wood/fancy/red,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/jazzclub)
 "vNB" = (
@@ -168145,9 +168165,9 @@ gLv
 eMF
 tOQ
 doP
+ucp
 eMF
-wIl
-wIl
+jzc
 knj
 fIE
 gVj
@@ -168347,9 +168367,9 @@ fXQ
 eMF
 dVH
 doP
-ucp
 eMF
-pTE
+uUl
+vBA
 knj
 knj
 knj
@@ -168550,7 +168570,7 @@ eMF
 gVl
 doP
 eMF
-uUl
+voT
 vBA
 lqn
 wIl
@@ -168751,9 +168771,9 @@ nZl
 eMF
 eKH
 doP
+ucp
 eMF
-voT
-mHK
+tgx
 wIl
 lqn
 wIl
@@ -168950,12 +168970,12 @@ klK
 jyG
 nZl
 fXQ
-eMF
 ucp
+eMF
 nvD
-ucp
 eMF
-pTE
+uUl
+vBA
 lqn
 wIl
 lqn
@@ -169156,7 +169176,7 @@ eMF
 amD
 iWW
 eMF
-uUl
+voT
 mHK
 wIl
 lqn
@@ -169357,9 +169377,9 @@ fXQ
 ucp
 ucp
 ucp
+ucp
 eMF
-voT
-vBA
+pTE
 lqn
 wIl
 lqn
@@ -169559,9 +169579,9 @@ fXQ
 fpV
 gYd
 eMF
-ucp
-eMF
-pTE
+ylh
+wIl
+wIl
 wIl
 wIl
 wIl
@@ -169761,7 +169781,7 @@ fXQ
 hJj
 oik
 eMF
-ylh
+wIl
 wIl
 wIl
 wIl
@@ -170182,7 +170202,7 @@ wIl
 ucp
 ucp
 ucp
-ucp
+eMF
 nOe
 ucp
 ucp
@@ -208960,7 +208980,7 @@ wIl
 fIE
 bJo
 ucp
-ucp
+eMF
 mGp
 ucp
 ucp
@@ -209570,7 +209590,7 @@ bFe
 bFe
 wIl
 ucp
-ucp
+eMF
 bNJ
 ucp
 ucp
@@ -209769,7 +209789,7 @@ fIE
 wIl
 ucp
 ucp
-ucp
+eMF
 njs
 eMF
 okm
@@ -210571,7 +210591,7 @@ sBA
 cga
 cga
 ucp
-ucp
+eMF
 nOe
 ucp
 ucp
