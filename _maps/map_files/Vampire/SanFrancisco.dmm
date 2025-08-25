@@ -12040,9 +12040,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/apartment)
-"diB" = (
-/turf/closed/wall/vampwall/rich,
-/area/vtm)
 "diK" = (
 /obj/effect/decal/bordur/corner,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -14920,6 +14917,9 @@
 /obj/item/instrument/accordion,
 /obj/item/instrument/saxophone,
 /obj/item/instrument/trombone,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
 /turf/open/floor/carpet/green,
 /area/vtm/jazzclub)
 "dVI" = (
@@ -29972,9 +29972,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/interior/museum)
-"hTk" = (
-/turf/open/space/basic,
-/area/vtm/interior/theatre)
 "hTl" = (
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior)
@@ -42654,6 +42651,10 @@
 /area/vtm/clinic/haven)
 "ldV" = (
 /obj/structure/table/wood/fancy/red,
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 4
+	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/jazzclub)
 "leh" = (
@@ -64208,10 +64209,6 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
-"qvg" = (
-/obj/matrix,
-/turf/open/space/basic,
-/area/vtm/sewer)
 "qvn" = (
 /obj/effect/decal/wallpaper/stone/low,
 /turf/closed/wall/vampwall/market/low/window,
@@ -84370,10 +84367,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
-"vQB" = (
-/obj/effect/decal/wallpaper/red,
-/turf/closed/wall/vampwall/rich,
-/area/vtm)
 "vQC" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -128935,11 +128928,11 @@ rCB
 rCB
 rCB
 rCB
-vQB
+mHq
 vfE
 tCz
 hPO
-hTk
+rCB
 rCB
 rCB
 rCB
@@ -129136,13 +129129,13 @@ tuX
 tuX
 tuX
 tuX
-qvg
-diB
-hPO
-hPO
-hPO
-hTk
 rCB
+hPO
+hPO
+hPO
+hPO
+rCB
+xfw
 xfw
 rCB
 tuX
@@ -129338,7 +129331,7 @@ kOa
 kOa
 kOa
 fgp
-qvg
+rCB
 rCB
 rCB
 rCB
@@ -169959,9 +169952,9 @@ fIE
 fIE
 fIE
 wIl
-bJo
-bJo
-bJo
+kod
+kod
+kod
 wIl
 wIl
 wIl
@@ -210158,7 +210151,7 @@ aQB
 tuM
 nHT
 fIE
-bJo
+kod
 wIl
 fIE
 wIl
