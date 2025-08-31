@@ -29054,6 +29054,21 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
+"hHf" = (
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = 6
+	},
+/obj/machinery/light/prince{
+	light_power = 0.45;
+	name = "dim light fixture";
+	dir = 4;
+	pixel_y = 11
+	},
+/turf/open/floor/plating/toilet{
+	color = "#919191"
+	},
+/area/vtm/jazzclub)
 "hHk" = (
 /obj/structure/stairs/west,
 /turf/open/floor/plating/parquetry/old,
@@ -35901,6 +35916,13 @@
 	pixel_x = -10
 	},
 /turf/open/floor/carpet/purple,
+/area/vtm/jazzclub)
+"jua" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4;
+	color = "#636363"
+	},
+/turf/open/floor/plating/church,
 /area/vtm/jazzclub)
 "juj" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -53591,6 +53613,10 @@
 	lock_id = "ventrue";
 	lockpick_difficulty = 12
 	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8;
+	color = "#636363"
+	},
 /turf/open/floor/plating/church,
 /area/vtm/jazzclub)
 "nOh" = (
@@ -54025,6 +54051,14 @@
 /obj/structure/railing/metal,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/baali)
+"nTD" = (
+/obj/machinery/light/prince{
+	light_power = 0.45;
+	name = "dim light fixture";
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/jazzclub)
 "nTF" = (
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/bordur{
@@ -59592,17 +59626,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/shop)
-"pmV" = (
-/obj/item/statuebust{
-	anchored = 1;
-	pixel_y = 13
-	},
-/obj/effect/turf_decal/siding/wood{
-	color = "#9a704a";
-	dir = 8
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/jazzclub)
 "png" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/concrete,
@@ -62090,6 +62113,9 @@
 	light_power = 0.45;
 	name = "dim light fixture";
 	light_color = "#000080"
+	},
+/obj/structure/railing{
+	dir = 4
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
@@ -72037,9 +72063,7 @@
 	},
 /obj/item/ammo_box/magazine/vamp556,
 /obj/item/ammo_box/magazine/vamp556,
-/obj/item/ammo_box/magazine/vamp556,
 /obj/item/ammo_box/vampire/c556,
-/obj/item/ammo_box/vampire/c556/incendiary,
 /obj/item/vamp/keys/ventrue,
 /obj/item/vamp/keys/ventrue,
 /turf/open/floor/carpet/purple,
@@ -81443,15 +81467,6 @@
 /obj/effect/decal/bordur,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/graveyard)
-"uYA" = (
-/obj/structure/chair/plastic{
-	dir = 4
-	},
-/obj/structure/curtain/cloth/fancy{
-	pixel_y = 15
-	},
-/turf/open/floor/plating/sidewalkalt,
-/area/vtm/financialdistrict)
 "uYG" = (
 /obj/structure/table/wood,
 /obj/machinery/fax/glasswalker{
@@ -167915,7 +167930,7 @@ lEF
 xOU
 tHY
 fXQ
-uYA
+gYd
 eMF
 tOQ
 doP
@@ -169738,13 +169753,13 @@ fpV
 gYd
 eMF
 ylh
-wIl
 pXg
 vaL
 vaL
 vaL
 vaL
-pmV
+vaL
+vaL
 vaL
 vaL
 uhN
@@ -170565,7 +170580,7 @@ eMF
 qWz
 qRc
 wBo
-mDM
+hHf
 ucp
 mJe
 jBa
@@ -209327,7 +209342,7 @@ mjT
 mjT
 mjT
 mjT
-eMF
+ucp
 ucp
 ucp
 ucp
@@ -209547,7 +209562,7 @@ nOC
 vGw
 ucp
 oqf
-ePJ
+jua
 uRR
 qWy
 ucp
@@ -210143,8 +210158,8 @@ tsz
 tsz
 ucp
 eMF
-okm
 tCi
+wIl
 fIE
 wIl
 aQB
@@ -210547,7 +210562,7 @@ cga
 fIE
 fIE
 lRp
-fIE
+nTD
 fIE
 fIE
 fIE
