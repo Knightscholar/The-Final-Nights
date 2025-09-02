@@ -96,15 +96,17 @@
 /obj/item/vamp/keys/anarch
 	name = "Anarch keys"
 	accesslocks = list(
-		"anarch"
+		"anarch",
+		"biker_bar"
 	)
 	color = "#434343"
 
 /obj/item/vamp/keys/bar
-	name = "Barkeeper keys"
+	name = "Bar Owner's keys"
 	accesslocks = list(
-		"bar",
+		"baron",
 		"anarch",
+		"biker_bar"
 	)
 	color = "#434343"
 
@@ -160,6 +162,13 @@
 		"trujah",
 		"tmr"
 	)
+
+/obj/item/vamp/keys/ministry
+	name = "community center keys"
+	accesslocks = list(
+		"setite"
+	)
+	color = "#09350cff"
 
 /obj/item/vamp/keys/kiasyd
 	name = "Solitary keys"
@@ -392,8 +401,8 @@
 		"police",
 		"glowie"
 	)
-/obj/item/vamp/keys/police/districtattorney
-	name = "District Attorney keys"
+/obj/item/vamp/keys/police/assistantdistrictattorney
+	name = "assistant District Attorney keys"
 	accesslocks = list(
 		"police"
 	)
