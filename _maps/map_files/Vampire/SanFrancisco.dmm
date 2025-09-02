@@ -3250,15 +3250,6 @@
 	color = "#636363"
 	},
 /area/vtm/interior/setite)
-"aUC" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
-	},
-/obj/structure/chair/wood/wings{
-	dir = 8
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/jazzclub)
 "aUD" = (
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/shop)
@@ -41874,6 +41865,15 @@
 	base_icon_state = "canal2"
 	},
 /area/vtm/sabbat_lair)
+"kIF" = (
+/obj/structure/vampdoor/wood{
+	dir = 8;
+	lock_id = "primVentrue";
+	locked = 1;
+	lockpick_difficulty = 10
+	},
+/turf/open/openspace,
+/area/vtm)
 "kIH" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/parquetry/old,
@@ -81870,7 +81870,6 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/ghetto)
 "uJB" = (
-/obj/structure/table/wood/fancy/red,
 /obj/structure/table/wood/fancy/red,
 /obj/item/candle/infinite{
 	anchored = 1;
@@ -169806,7 +169805,7 @@ wIl
 lqn
 sry
 lOu
-aUC
+opv
 opv
 wIl
 vxU
@@ -213851,7 +213850,7 @@ mjT
 mjT
 mjT
 mjT
-mjT
+kIF
 mjT
 mjT
 mjT
