@@ -37974,20 +37974,9 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
 "jJI" = (
-/obj/structure/vampdoor/wood{
-	dir = 8;
-	lock_id = "primVentrue";
-	locked = 1;
-	lockpick_difficulty = 10
-	},
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#5a2355";
 	dir = 8
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/vampdoor/wood{
 	dir = 8;
@@ -95784,15 +95773,6 @@
 /obj/manholedown,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/baywalk)
-"yip" = (
-/obj/structure/vampdoor/wood{
-	dir = 8;
-	lock_id = "primVentrue";
-	locked = 1;
-	lockpick_difficulty = 10
-	},
-/turf/open/openspace,
-/area/vtm)
 "yiq" = (
 /obj/structure/railing/metal{
 	dir = 4
@@ -214574,7 +214554,7 @@ mjT
 mjT
 mjT
 mjT
-yip
+mjT
 mjT
 mjT
 mjT
