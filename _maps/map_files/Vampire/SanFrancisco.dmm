@@ -14479,6 +14479,13 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/pacificheights/forest)
+"dPg" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/wood{
+	color = "#9a704a"
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "dPl" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#004136";
@@ -14506,6 +14513,17 @@
 	},
 /turf/open/floor/plating/shit,
 /area/vtm/sewer)
+"dPA" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "dPB" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -16663,6 +16681,10 @@
 	color = "#802d29";
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#9a704a";
+	dir = 4
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
 "ewF" = (
@@ -18776,6 +18798,10 @@
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#9a704a";
+	dir = 4
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
@@ -24728,6 +24754,17 @@
 "gys" = (
 /turf/closed/wall/vampwall/rustbad,
 /area/vtm)
+"gyt" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#802d29";
+	dir = 4
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "gyu" = (
 /obj/structure/vampipe{
 	pixel_y = 32
@@ -55101,6 +55138,17 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"nWb" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#802d29";
+	dir = 1
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "nWf" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8;
@@ -58334,6 +58382,10 @@
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#9a704a";
+	dir = 4
 	},
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#802d29"
@@ -73126,6 +73178,9 @@
 	color = "#802d29";
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#9a704a"
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
 "swW" = (
@@ -73939,6 +73994,17 @@
 	},
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/ghetto)
+"sJg" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 4
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "sJn" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/white{
@@ -88780,6 +88846,16 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
+"wCa" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29"
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 1
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "wCb" = (
 /obj/structure/bath,
 /turf/open/floor/plating/church,
@@ -210604,8 +210680,8 @@ jXw
 bPD
 aJr
 eMF
-hcX
-pzH
+sJg
+gyt
 fIE
 cSC
 eMF
@@ -210807,7 +210883,7 @@ rTl
 rck
 eMF
 bgb
-mTu
+wCa
 fIE
 cSC
 ucp
@@ -211009,7 +211085,7 @@ ucp
 ucp
 eMF
 ulc
-mTu
+wCa
 fIE
 cNo
 eMF
@@ -211210,8 +211286,8 @@ bJo
 sSD
 xhq
 rjq
-gZs
-lxu
+dPA
+nWb
 fIE
 fjc
 eMF
@@ -212629,7 +212705,7 @@ pFu
 edA
 lYE
 eMF
-sry
+dPg
 amD
 amD
 amD
