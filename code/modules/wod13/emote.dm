@@ -47,6 +47,8 @@
 	message = "howls!"
 	emote_type = EMOTE_AUDIBLE | EMOTE_VISIBLE
 
+//TFN EDIT START - Small Emote Expansion #808 - Does The Thing
+
 /datum/emote/living/snarl
 	key = "snarl"
 	key_third_person = "snarls"
@@ -100,3 +102,5 @@
 	key_third_person = "grits"
 	message = "forcefully grits their teeth."
 	emote_type = EMOTE_VISIBLE
+
+//TFN EDIT END - Small Emote Expansion #808
