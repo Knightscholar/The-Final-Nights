@@ -460,7 +460,7 @@
 
 	cheek_kiss = (offerer.zone_selected != BODY_ZONE_PRECISE_MOUTH)
 
-	if(hand_kiss==1)
+	if(hand_kiss)
 		cheek_kiss = !hand_kiss
 
 	offerer.visible_message(span_notice("[offerer] leans in slightly, offering a kiss[cheek_kiss ? " on the cheek" : ""][hand_kiss ? " on the hand" : ""]!"),
