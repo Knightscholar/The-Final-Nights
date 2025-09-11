@@ -86,8 +86,8 @@
 	emote_type = EMOTE_AUDIBLE | EMOTE_VISIBLE
 
 /datum/emote/living/fanggrin
-	key = "fanggrin"
-	key_third_person = "fanggrins"
+	key = "fgrin"
+	key_third_person = "fgrins"
 	message = "grins widely, fangs bared."
 	emote_type = EMOTE_VISIBLE
 
